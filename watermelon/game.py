@@ -241,7 +241,7 @@ while t_a == 'y' :
 
     win_retry.title("play again?")
 
-    lbl_retry = Label(win_retry, text = 'try again?', font = 20)
+    lbl_retry = Label(win_retry, text = 'Try again?', font = 20)
     btn_yes = Button(win_retry, text = 'yes', command = lambda : set_retry('yes'))
     btn_no = Button(win_retry, text = 'no', command = lambda : set_retry('no'))
 
